@@ -42,6 +42,7 @@ class ExcludeFileByNameFilterIterator extends \RecursiveFilterIterator {
 		'Thumbs.db', // Microsoft Windows
 		'.directory', // Dolphin (KDE)
 		'.webapp', // Gentoo/Funtoo & derivatives use a tool known as webapp-config to manager wep-apps.
+		'.webapp-nextcloud-10.0.0', // Gentoo/Funtoo & derivatives current version exclusion
 	];
 
 	/**
